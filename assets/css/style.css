@@ -1,0 +1,71 @@
+/*Imagem do plano de fundo*/
+
+
+/*Estilos da página index*/
+
+.center {
+    text-align: center;
+}
+
+.justify{
+
+    text-align: justify;
+}
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+    
+}
+
+#menu li a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px ;
+}
+
+#menu li a:hover{
+    color: rgb(195, 15, 240);
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+}
+.wh-350{
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+body{
+    background-image:url(imagem-backgroung/background1.jpg);
+    color: white;
+    
+}
+
+/*Estilos da página contatos*/
+.ml-50{
+    margin-left: 50px;
+}
+
